@@ -1,0 +1,33 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+config.local.php
+config.local.*
+
+# Database exports and local data
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs and runtime files
+*.log
+*.tmp
+*.temp
+cache/
+tmp/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project planning/source artifact not needed to run the website
+*.xlsx

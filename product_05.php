@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surface Pro 8</title>
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style04.css">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+   
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone" rel="stylesheet">
+    
+    <script src="./js/product.js" defer></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <!-- 字體設定===================================== -->
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Inter&display=swap" rel="stylesheet">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Inter&family=Roboto&display=swap" rel="stylesheet">
+    <!-- icon設定===================================== -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/6-1-8.css">
+</head>  
+
+<body>
+    <header>
+        <ul>
+            <li><a href="index2.html"><span class="material-symbols-outlined">home</span></a></li>
+            <li><a href="product_01.php" target="_blank">iPad<i class=""></i></a></li>
+            <li><a href="product_07.php" target="_blank">Galaxy<i class=""></i></a></li>
+        </ul>
+        <ul> <p>Surface Pro 8</p> </ul>
+        <ul>
+            <li><a href="./cart_pay.php"><span class="material-symbols-outlined">
+            shopping_basket
+            </span></a></li>
+            <li><a href="./login.php">ログイン/新規登陸</a></li>
+            <!-- <li><div class="group">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                <input placeholder="Search" type="search" class="input">
+            </div></li> -->
+        </ul>
+    </header> 
+
+    <div class="to_cart">
+        <button class="shopping icons" id="open_buy_btn"></button>
+        Buy Now!
+    </div>
+
+
+    
+    <div>
+        <section class="turnig_photo_container2">
+            <h1>Surface Pro 8</h1>
+            <h2>ノート PC のパワーとタブレットの柔軟性に加え、中間にあるメリットもすべて兼ね備えています。</h2>
+            <div class="outof_turnig_photo2">
+                <div class="turnig_photo2">
+                    <div class="turning_img2"></div>
+                    <div class="turning_img2"></div>
+                    <div class="turning_img2"></div>
+                    <div class="turning_img2"></div>
+                    <div class="turning_img2"></div>
+                    <!-- <div class="turning_img2"></div> -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <p class="plus">
+        <span class="add">
+            <i class="fa fa-plus rotate" style="font-size:36px;"></i>
+            技術仕様を見る
+        </span>
+    </p>
+    <div class="pop">
+        <div class="pro_detail">
+            <ul>
+                <li class="detail_title">本体サイズ</li>
+                <li>287 mm x 208 mm x 9.3 mm (11.3 インチ x 8.2 インチ x 0.37 インチ)</li>
+                <li class="detail_title">色</li>
+                <li>プラチナ　/　グラファイト</li>
+                <li class="detail_title">ディスプレイ</li>
+                <li>解像度: 2880 x 1920 (267 PPI)</li>
+                <li>最大 120Hz のリフレッシュ レート (既定値: 60Hz)</li>
+                <li class="detail_title">記憶容量(SSD)　/　値段</li>
+                <li>12GB：121880円</li>
+                <li>256GB：148280円</li>
+                <li>512GB：161480円</li>
+                <li>1TB：215380円</li>
+                <li class="detail_title">重量</li>
+                <li>891 g (1.96 ポンド)</li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <div class="sf9_product_container">
+            <!-- <div class="outof_sf9_product_img">
+                <img class="sf9_product_img" src="./img/surfacepro9/3.JPG" alt="">
+            </div> -->
+
+            <div>
+                <ul class="slider2">
+                    <li>
+                        <img src="img/surfacepro8/sfpro8_07.jpg" alt="">
+                        <p>究極のデスクトップ エクスペリエンス</p>
+                    </li>
+                    <li>
+                        <img src="img/surfacepro8/sfpro8_08.jpg" alt="">
+                        <p>携帯型ゲーム</p>
+                    </li>
+                    <li>
+                        <img src="img/surfacepro8/sfpro8_09.jpg" alt="">
+                        <p>表現することが容易に</p>
+                    </li>
+                    <li>
+                        <img src="img/surfacepro8/sfpro8_10.jpg" alt="">
+                        <p>受賞歴を誇る番組や素晴らしいアプリ</p>
+                    </li>
+                    <li>
+                        <img src="img/surfacepro8/sfpro8_11.jpg" alt="">
+                        <p>大事なものに、より速くアクセス</p>
+                    </li>
+                    </li>
+                    <li>
+                        <img src="img/surfacepro8/sfpro8_12.jpg" alt="">
+                        <p>確実な生産性</p>
+                    </li>
+                    <li>
+                        <img src="img/surfacepro8/sfpro8_13.jpg" alt="">
+                        <p>完璧な視聴方法</p>
+                    </li>
+                </ul>
+            </div>
+                
+         
+
+            <div id="overlay">
+                <form action="order_check.php" method="post" id="modal">
+                    <div id="closeModal" class="closeModal">
+                        ×
+                    </div>
+                    <p>Surface Pro 8</p>
+                    <div class=img_checkbox>
+                        <img src="img/surfacepro8/sfpro8_01.JPG" alt="">
+                        <div id="quantity_sel">
+                            <div style="display:none">
+                                <select name="p_name">
+                                    <option value="surface pro8"selected>Surface Pro 8</option>
+                                </select>
+                                <select name="p_brand">
+                                    <option value="surface"selected>Surface</option>
+                                </select>
+                            </div>
+                            <div class="show_quantity_sel">
+                                <select name="quantity">
+                                <option value="0"selected>数量</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                </select>
+                            </div>
+                            <div class="show_quantity_sel">
+                                <select name="color">
+                                <option value=""selected>色</option>
+                                <option value="プラチナ">プラチナ</option>
+                                <option value="グラファイト">グラファイト</option>
+                                </select>
+                            </div>
+                            <div class="show_quantity_sel">
+                                <select name="ssd_size">
+                                <option value="0"selected>SSD容量</option>
+                                <option value="128">128GB</option>
+                                <option value="256">256GB</option>
+                                <option value="512">512GB</option>
+                                <option value="1000">1TB</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <input id="close_buy_btn" type="submit" value="確認"/>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="outof_sf_pro_box">
+            <div class="sf_pro_box">
+                <img src="img/surfacepro8/surfacepro8_01.jpg" alt="">
+                <div>
+                    <span>
+                        <h1>Surface Pro 9</h1>
+                        <br>
+                        <p>仕事に、ストリーミングに、遊びに — Surface Pro 9 はタブレットの柔軟性とノート PC のパフォーマンスをすべて 1 台で実現します。</p>
+                        <br>
+                        <a class="p_2 btn" href="product_04.php">more</a>
+                    </span>
+                </div>
+            </div>
+
+            <div class="sf_pro_box">
+                <img src="img/surfacepro7+/surfacepro7+_01.jpg" alt="">
+                <div>
+                    <span>
+                        <h1>Surface Pro 7+</h1>
+                        <br>
+                        <p>使い慣れた Surface Pro 2-in-1 のデザインが Surface Pro 7+ で高速パフォーマンスと融合し、ノート PC のパフォーマンス、パワフルなタブレット、ポータブルなデジタル キャンバスを実現します。</p>
+                        <br>
+                        <a class="p_2" href="product_06.php">more</a>
+                    </span>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </main>
+    
+    <footer>
+        <h2>全部商品</h2>
+        <div>
+            <ul>
+                <li>
+                    <a href="./product_01.php">iPad Pro</a>
+                </li>
+                <li>
+                    <a href="./product_02.php">iPad Air</a>
+                </li>
+                <li>
+                    <a href="./product_03.php">iPad 10</a>
+                </li>
+            </ul>
+        
+            <ul>
+                <li>
+                    <a href="./product_04.php">Surface Pro 9</a>
+                </li>
+                <li>
+                    <a href="./product_05.php">Surface Pro 8</a>
+                </li>
+                <li>
+                    <a href="./product_06.php">Surface Pro 7+</a>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <a href="./product_07.php">S8 Ultra</a>
+                </li>
+                <li>
+                    <a href="./product_08.php">S8+</a>
+                </li>
+                <li>
+                    <a href="./product_09.php">Tab A</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!--自作のJS-->
+    <script src="js/6-1-8.js"></script>
+</div>
+</body>
+
+</html>

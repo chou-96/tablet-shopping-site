@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+body{
+    background-color: #FFFBEB;
+  }
+
+#username, #password, #birth, #age, #phone,h3, #fullname, #span, #address1, #address2, #address3, #mailaddress, #username2, #password2{
+    width: 350px;
+    height: 20px;
+    margin: 10px;
+    /* color: #df5334; */
+}
+
+
+h5{
+    margin: 20px;
+    color: #a3a2a3;
+  }
+
+h5:hover{
+    color: black;   
+}
+
+#container1{
+    /* margin: 50px; */
+    padding: 10px;
+    width: 500px;
+    height: 255px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #263159;
+    border-top: 10px solid #263159;
+    box-shadow: 0 0px 70px rgba(0, 0, 0, 0.1);
+    
+    /*定位對齊*/
+    position:relative;   
+    margin: 0 auto;
+    top: 100px;
+    /* text-align:center;   */
+  }
+
+#container2{
+    visibility: hidden;   /*剛開始消失*/
+    height: 350px;
+
+}
+
+.signup{
+    margin: 50px;
+    padding: 10px;
+    width: 500px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid #263159;
+    border-top: 10px solid #263159;
+    box-shadow: 3px 3px 70px rgba(0, 0, 0, 0.2);
+    
+    /*定位對齊*/
+    position:relative;   
+    margin: 0 auto;
+    /* top: 100px; */
+    /* text-align:center;   */
+}
+
+.login_form{
+    position:relative;   
+    margin: 0 auto;
+    text-align:center;  
+  }
+
+.signup_form{
+    position:relative;   
+    margin: 0 auto;
+    text-align:center;  
+}
+
+.system_name{
+    /*定位對齊*/
+    position:relative;   
+    margin: auto;
+    top: 100px;
+    text-align:center; 
+}
+
+.submit{
+    color: white;  
+    background: #263159;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+    text-align:center;
+  }
+  
+.submit:hover{
+    background-color: #7387ca;
+    color: rgb(235, 235, 235);
+}
+
+#copyright{
+    text-align: center;
+    color: #a3a2a3;
+    margin: -50px 0px 0px 0px;
+    font-size: 14px;
+}
+
+.BackToHomePage{
+    text-align: right;
+    color: #a3a2a3;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.login{
+    h4{
+        align-items: center;
+        justify-content: center;
+        // border: #263159 solid 3px;
+        text-align: center;
+        color: #a3a2a3;
+        cursor: pointer;
+    }
+    h4:hover{
+        color: #000000;
+    }
+}
+
+.login_down{
+    align-items: center;
+    // padding-top: 0px;
+    // justify-content: space-between;
+
+    ul {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        
+        li{
+            h5{
+                font-size: 14px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+  
+input{
+    padding: 5px;
+    border: none; 
+    border:solid 1px #ccc;
+    border-radius: 5px;
+}
+
+span{
+    padding: 5px;
+    padding-left: 15px;
+    color: #a3a2a3;
+}
+
+
+// ------------
+#btn_zipcode{
+  background-color: gray;
+  padding: 0.3em;
+  border-radius: 0.2em;
+  color: white;
+//   margin-bottom: 0.5em;
+  margin-left: 0.3em;
+}

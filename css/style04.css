@@ -1,0 +1,82 @@
+.add {
+  display: flex;
+  font-weight: bold;
+  height: 500px;
+  transition: all 0.4s ease-in-out;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 20px;
+  top: 100px;
+  left: 40px;
+  z-index: 3;
+  writing-mode: vertical-lr;
+}
+
+.plus {
+  background: #f1a90d;
+  transition: all 0.4s ease-in-out;
+}
+
+.open {
+  background: rgb(99, 128, 197);
+}
+
+.rotate {
+  color: rgb(20, 25, 85);
+  margin-top: 0.1em;
+  margin-left: 0.6em;
+  padding-right: 0.5em;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.rotate.down {
+  color: #f1a90d;
+  margin-left: 0.4em;
+  transform: rotate(45deg);
+}
+
+.pop {
+  background: rgba(19, 21, 44, 0.95);
+  border-radius: 5px;
+  display: none;
+  font: 1.25em;
+  width: calc(100% - 70px);
+  margin-left: 70px;
+  position: absolute;
+  top: 170px;
+  color: white;
+}
+.pop ul {
+  margin-bottom: 1em;
+}
+.pop ul li {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.pro_detail {
+  display: flex;
+  justify-content: center;
+}
+
+.detail_title {
+  margin-left: -3em;
+  border-top: 1px solid #ccc;
+  font-weight: bold;
+  color: #f1a90d;
+}
+
+.pop li {
+  height: 40px;
+  line-height: 40px;
+}
+
+.pop li:last-of-type {
+  border: 0;
+}
+
+.pop li:hover {
+  border-radius: 5px;
+}/*# sourceMappingURL=style04.css.map */
